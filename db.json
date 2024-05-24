@@ -1,0 +1,32 @@
+{
+  "products": [],
+  "product_color": [
+    {
+      "color": "trắng",
+      "id": 1
+    },
+    {
+      "color": "đen",
+      "id": 3
+    },
+    {
+      "name": "sfvdgbrn",
+      "id": 4
+    }
+  ],
+  "product_size": [
+    {
+      "size": "M",
+      "id": "2"
+    },
+    {
+      "size": "S",
+      "id": "3"
+    },
+    {
+      "size": "L",
+      "id": "6"
+    }
+  ],
+  "users": []
+}
