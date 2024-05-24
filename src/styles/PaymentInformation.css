@@ -1,0 +1,179 @@
+.PaymentInformationPage>h1{
+    font-size: 30px;
+}
+.controll-voucher{
+    padding: 9px;
+    padding-top: 13px;
+    width: 80%;
+    border: 1px solid rgb(210, 210, 210);
+}
+.controll-voucher img{
+    margin-top: -6px;
+    margin-left: 10px;
+}
+.controll-voucher>p{
+    margin-left: auto;
+}
+.controll-voucher>p>span:nth-child(1){
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+        linear-gradient(90deg, transparent 0%, #f64e11 100%);
+    border-radius: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    color: red;
+}
+.controll-voucher>p>span:nth-child(2){
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+        linear-gradient(90deg, transparent 0%, #19e702 100%);
+    border-radius: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    color: red;
+}
+/* .controll-voucher>p>span:nth-child(1){
+    padding: 5px;
+    margin-right: 10px;
+    border: 2px solid red;
+}
+.controll-voucher>p>span:nth-child(2){
+    padding: 5px;
+    margin-right: 10px;
+    border: 2px solid rgb(6, 255, 22);
+} */
+.controll-adress{
+    margin-left: auto;
+}
+.icon_information{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -16px;
+    font-size: 25px;
+    color: red;
+}
+.controll-adress>select{
+    padding: 10px;
+    border: 1px solid rgb(210, 210, 210);
+}
+.thong_tin_don_hang{
+    width: 100%;
+        margin-top: 30px;
+}
+.thong_tin_don_hang>h2{
+    font-size: 25px;
+}
+.thong_tin_don_hang>table{
+    width: 100%;
+    margin: 30px auto;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+table, th, td{
+    padding: 10px 10px;
+}
+th{
+    font-weight: 700;
+}
+#tongtien{
+    font-weight: 900;
+    color: red;
+    font-size: 20px;
+}
+.phuong_thuc_thanh_toan{
+    background-color: rgb(224, 222, 222);
+    margin: 30px 0  ;
+    padding: 20px;
+}
+.phuong_thuc_thanh_toan>label{
+    margin-bottom: 20px;
+}
+.phuong_thuc_thanh_toan>label>input{
+    margin-right: 5px;
+}
+.luu_y{
+    padding: 10px;
+    background-color: rgb(184, 182, 182);
+    color: rgb(232, 0, 0);
+    font-style: italic;
+    font-size: 15px;
+}
+.dat_hang{
+    margin: 30px auto;
+    margin-left: auto;
+    text-align: right;
+}
+.dat_hang>p{
+    color: rgb(232, 0, 0);
+    font-style: italic;
+    font-size: 15px;
+}
+.dat_hang>button{
+    background-color: red;
+    border-radius: 15%;
+    color: rgb(254, 254, 254);
+    padding: 10px;
+}
+.list_voucher label  {
+   display: block;
+}
+.list_voucher>.van_chuyen{
+    margin: 20px auto;
+}
+.list_voucher>.van_chuyen> label{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: rgb(126, 243, 42);
+    padding:5px 10px;
+    color: aliceblue;   
+}
+.list_voucher>.tong_don>label{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: orangered;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+.list_voucher label input{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-top: 6px;
+    color: #f64e11;
+}
+.form_payment input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 15px;
+        transition: transform 0.3s ease;
+}
+.form_payment input:hover{
+    border: 6px solid rgb(247, 77, 247);
+    transform: translateY(-5px);
+}
+.ho_ten_form input{
+width: 100%; 
+}
+.ten_form{
+    width: 30%;
+}
+
+.ho_ten_form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

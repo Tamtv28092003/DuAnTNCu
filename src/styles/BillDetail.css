@@ -1,0 +1,17 @@
+@media print {
+    #trang-thai-giao-hang {
+        display: none;
+    }
+    #name-bill {
+        display: none;
+    }
+    #trang-thai-don-hang {
+        border: none;
+    }
+    #ten-cua-hang {
+        display: none;
+    }
+    /* #trang-thai-thanh-toan {
+        display: flex-col;
+    } */
+}

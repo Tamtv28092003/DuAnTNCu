@@ -1,0 +1,199 @@
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  .imgfluid {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header_matpet {
+    display: flex;
+    padding: 10px 0;
+  }
+  
+  .matpet-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   padding-bottom: 10px;
+  }
+  
+  .header_matpet-img img {
+    width: 70px;
+  }
+  
+  .matpet-menu--list {
+     margin-right: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
+  .matpet-menu--link {
+    display: flex;align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .matpet-menu--hover {
+    display: flex; 
+    align-items: center;
+  }
+  
+  .matpet-menu--hover:hover {
+  color: #de8ebe;
+  }
+  
+  .matpet-menu--text {
+    background-color: #de8ebe;
+    color: #ffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  /*  */
+  
+  .hung > ul > li{
+    display: inline-block;
+    position: relative;
+  }
+  .hung > ul > li > a {
+    display: block;
+  }
+  .hung > ul {
+    list-style: none;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .hung > ul > li > a {
+    padding: 0 10px;
+    line-height: 40px;
+  }
+  
+  .hung ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+  }
+  .hung ul ul a {
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    text-align: left;
+  }
+  .hung > ul > li:hover > ul {
+    display: block;
+  }
+  .hung ul ul a:hover{
+    background-color: #de8ebe;
+    color: white;
+  }
+  
+  
+  .matpet_btn {
+    background-color: #de8ebe;
+    padding: 10px 15px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px ;
+  }
+  
+  /* slide show */
+  
+  .matpet_slideShow, .mySlides {
+    overflow: hidden;
+  }
+  
+  .matpet_slideShow {
+    display: flex;
+    gap: 20px;
+  }
+  .matpet--goc {
+    width: 30%;
+    height: 500px;
+    background-color: black;
+    border-radius: 15px;
+  }
+  
+  
+  .matpet_slideShow--img, .mySlides {
+    background-color: black;
+    height: 500px;
+    width: 1000px;
+  }
+  
+  /* =============== */
+  
+  
+  /* =====categories */
+  .product-categories {
+    list-style: none;
+  }
+  .all_categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    padding: 8px 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .category {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Styling danh sách danh mục con */
+  .sub-categories {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  /* Hiển thị danh sách con khi hover vào danh mục cha */
+  .category:hover .sub-categories {
+    display: block;
+  }
+
+  .categories_searchs {
+    display: flex;
+    align-items: stretch;
+    justify-content: right;
+    margin: 20px;
+  }
+  
+  .product-categories {
+    padding-top: 5px;
+  }
+  
+  .profile--width {
+    padding-top: 5px;
+    font-size: 35px;
+  }
+  
+  .profile--width-drop {
+    left: 10px;
+    max-width: 150px;
+  }

@@ -1,0 +1,47 @@
+.color {
+    position: relative;
+}
+
+.xxxx {
+    position: absolute;
+    top: 10%; /* Initially move it up by the full height to hide it */
+    right: 0;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: top 0.3s ease; /* Add a smooth transition effect */
+}
+.color:hover {
+    border: 1px solid red;
+    background-color: rgb(254, 105, 105);
+    color: black;
+}
+
+.color:hover .xxxx {
+    top: -13px; /* Move it to the top when .color is hovered */
+    color: red; /* Change color on hover */
+}
+
+.size {
+    position: relative;
+}
+
+.xxxxx {
+    position: absolute;
+    top: 10%; /* Initially move it up by the full height to hide it */
+    right: 0;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: top 0.3s ease; /* Add a smooth transition effect */
+}
+.size:hover {
+    border: 1px solid red;
+    background-color: rgb(245, 0, 0);
+    color: black;
+}
+
+.size:hover .xxxxx {
+    top: -13px; /* Move it to the top when .color is hovered */
+    color: red; /* Change color on hover */
+}

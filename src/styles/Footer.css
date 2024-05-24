@@ -1,0 +1,51 @@
+footer {
+    margin-top: 20px;
+    background-color: rgb(193, 185, 185);
+    border-radius: 5px;
+  }
+  
+  .matpet_ft {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+  }
+  
+  .cols-location--address {
+    color: gray;
+  }
+  
+  .matpet--cols--list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cols--list--link {
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .cols--list--link:hover {
+    color: #de8ebe;
+  }
+  
+  .matpet--cols-social {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .matpet--cols--fb, .matpet--cols--tiktok, .matpet--cols--ytb {
+    margin-right: 10px;
+  }
+  
+  .matpet--cols--link {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .ft--coppuright {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+  }
