@@ -58,7 +58,6 @@
     "react-player": "^2.14.1",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.19.0",
-    "resolvers": "link:@hookform\\resolvers",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.8.0",
@@ -86,6 +85,6 @@
     "tailwindcss": "^3.3.5",
     "typescript": "5.0.2",
     "vite": "^4.5.0",
-    "vite-plugin-svg": "^0.7.0"
+    "vite-svg-loader": "^3.0.0"
   }
 }
